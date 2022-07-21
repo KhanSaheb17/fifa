@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  list-style: none;
+}
+
+header {
+  background-color: #161616;
+  border-radius: 30px;
+  display: flex;
+  margin: 0 8vw;
+}
+
+
+
+.text-container {
+  color:white;
+  padding: 70px;
+  width:50%;
+}
+
+h1{
+  font-size: 70px;
+  font-weight: 700;
+}
+
+.text-container p{
+  margin: 30px 0;
+}
+
+.img-container  {
+  position: relative;
+  width:50%;
+}
+
+.img-container img{
+  position: absolute;
+  width: 90%;
+  bottom: 0;
+}
+
+.live {
+  width: 187px;
+  height: 56px;
+  background-color: #dd0000;
+  border-radius: 5px;
+  border: none;
+  color:white ;
+  font-size: 20px;
+}
+
+main{
+  margin:8vw;
+  display: flex; 
+  gap:15px;
+ }
+ 
+
+nav {
+  background-color: #161616;
+  border-radius: 10px;
+  text-align: center;
+  height: 312px;
+  width:312px;
+  padding: 30px;
+  flex-shrink:0;
+}
+nav ul {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+nav li {  
+  line-height: 60px;
+  height: 64px;
+  width: 100%;
+  background-color: white;
+  font-weight: 500;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.red {
+  background-color: #dd0000;
+  color: white;
+}
+
+.blogs {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 15px;
+}
+
+.blog   {
+  width: 314px;
+  border: 1px solid #e8e8e8 ;
+  border-radius: 10px;
+}
+
+.blog img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.blog-text {
+  width: 100%;
+  padding: 18px;
+}
+
+.transfer {
+  width: 100px;
+  height: 32px;
+  font-weight: 500;
+  background-color:#00000000;
+  border-radius: 5px;
+  border: 1px solid #161616;
+  
+}
+.blog p{
+  margin: 20px auto 15px auto;
+  font-size: 17px;
+  font-weight: 600;
+  color: #161616;
+}
+
+.blog-text ul {
+  display: flex;
+  gap: 25px;
+}
+
+.blog-text ul li{
+  display: flex;
+  align-items: center;
+  gap:10px;
+  color:gray;
+  
+}
+
+
+footer  {
+  width: 100%;
+  text-align:center;
+  background-color:#161616;
+  color:white;
+  padding: 130px;
+}
+footer span   {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+hr    {
+  margin: 50px 0;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+footer ul   {
+  display: flex;
+  gap:20px;
+  color: #b9b9b9;
+  font-size: 14px;
+}
